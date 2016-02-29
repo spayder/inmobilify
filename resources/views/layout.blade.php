@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Inmobilify</title>
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/sweetalert.css">
+
 </head>
 <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -31,5 +32,8 @@
     <div class="container">
         @yield('content')
     </div>
+
+    <script src="/js/sweetalert.js"></script>
+    @include('flash')
 </body>
 </html>
